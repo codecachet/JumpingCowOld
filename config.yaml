@@ -1,0 +1,56 @@
+baseURL: https://eternity.bora.sh # todo: change site url.
+title: Eternity # todo: change site name.
+defaultContentLanguage: 'en'
+theme: eternity
+googleAnalytics: '' # todo: set your analytics id.
+
+params:
+  image: /images/banner.png
+  subtitle: Eternity is a minimalist Hugo theme designed for portfolio sites with a fresh feel. # todo: change default subtitle for your website.
+  copyright: All rights reserved. # todo: set your copyright type.
+  author: Lovely Author # todo: set your full name.
+  dontShowSource: false # please, do not do this :)
+  portfolio:
+    columns:
+      desktop:
+        nature: 4
+        archive: 6
+        people: 2
+        default: 3
+      mobile:
+        default: 2
+        archive: 3
+        people: 1
+  socials:
+  
+  homepage: "/home" # homepage link, mostly same with menu.main[0]
+  specialPages:
+    - home
+    - archive
+  bypassWelcomePage: true # redirects "/" to "homepage" when it's true.
+  plausible: 'eternity.bora.sh' # todo: set your plausible id.
+  disableRadius: false
+
+markup:
+  defaultMarkdownHandler: goldmark
+  goldmark:
+    renderer:
+      unsafe: true
+
+taxonomies:
+  tag: tags
+
+permalinks:
+  work: ":filename/"
+
+menu:
+  main:
+    - name: home
+      url: /home/
+      weight: 1
+    - name: jack
+      url: /tags/jack/
+      weight: 2
+    - name: about
+      url: /about/
+      weight: 5
