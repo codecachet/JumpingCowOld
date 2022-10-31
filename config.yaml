@@ -1,15 +1,15 @@
-baseURL: https://eternity.bora.sh # todo: change site url.
-title: Eternity # todo: change site name.
+baseURL: https://jumpingcow.xyz # todo: change site url.
+title: JumpingCow # todo: change site name.
 defaultContentLanguage: 'en'
 theme: eternity
 googleAnalytics: '' # todo: set your analytics id.
 
 params:
   image: /images/banner.png
-  subtitle: Eternity is a minimalist Hugo theme designed for portfolio sites with a fresh feel. # todo: change default subtitle for your website.
+  subtitle: Get wowed! See jack for alittle halloween cheer. # todo: change default subtitle for your website.
   copyright: All rights reserved. # todo: set your copyright type.
-  author: Lovely Author # todo: set your full name.
-  dontShowSource: false # please, do not do this :)
+  author: JumpingCow.xyz  # todo: set your full name.
+  dontShowSource: true # please, do not do this :)
   portfolio:
     columns:
       desktop:
@@ -28,7 +28,7 @@ params:
     - home
     - archive
   bypassWelcomePage: true # redirects "/" to "homepage" when it's true.
-  plausible: 'eternity.bora.sh' # todo: set your plausible id.
+  plausible: 'jumpingcow.xyz' # todo: set your plausible id.
   disableRadius: false
 
 markup:
@@ -52,5 +52,5 @@ menu:
       url: /tags/jack/
       weight: 2
     - name: about
-      url: /about/
-      weight: 5
+      url: /about
+      weight: 3
