@@ -1,7 +1,7 @@
 baseURL: https://jumpingcow.xyz # todo: change site url.
 title: JumpingCow # todo: change site name.
 defaultContentLanguage: 'en'
-theme: eternity
+theme: eternity_dg
 googleAnalytics: '' # todo: set your analytics id.
 
 params:
